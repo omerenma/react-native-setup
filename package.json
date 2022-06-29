@@ -1,0 +1,32 @@
+{
+  "name": "nativeapplication",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "all": "^0.0.0",
+    "react": "18.0.0",
+    "react-native": "0.69.0",
+    "react-native-codegen": "^0.69.1",
+    "react-native-gradle-plugin": "^0.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/runtime": "^7.18.6",
+    "@react-native-community/eslint-config": "^3.0.3",
+    "babel-jest": "^28.1.1",
+    "eslint": "^8.18.0",
+    "jest": "^28.1.1",
+    "metro-react-native-babel-preset": "^0.71.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

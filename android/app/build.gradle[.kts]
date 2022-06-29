@@ -1,0 +1,9 @@
+apply plugin: "com.android.application"
+
+// Add those lines
+apply plugin: "com.facebook.react"
+// Add those lines as well
+react {
+    reactRoot = rootProject.file("../node_modules/react-native/")
+    codegenDir = rootProject.file("../node_modules/react-native-codegen/")
+}
